@@ -1,0 +1,23 @@
+{
+  "slug": "Symbolic",
+  "name": "Symbolic",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Haer",
+  "author": "Haer",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/hardyfinn/symbolic",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Symbolic",
+      "name": "Symbolic",
+      "description": "Acoustic cymbal model: 228 ringing modes of a bronze plate with bell, stick position and hardness, the nonlinear shimmer that blooms after a hard hit, ride wobble, china trash and a hi-hat pedal",
+      "tags": ["Drum", "Physical modeling", "Synth voice"]
+    }
+  ]
+}
