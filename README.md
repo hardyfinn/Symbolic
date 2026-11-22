@@ -21,3 +21,7 @@ Perrin et al., *The normal modes of cymbals* (IOA); Touzé, Chaigne, Ducceschi o
 nonlinear energy cascade in thin plates and cymbals; Dan Stowell's cymbal synthesis tutorial.
 
 Panel: `python3 res/make_panel.py` (needs fonttools); mock-up: `python3 tools/preview.py`.
+
+## Licence
+
+MIT (see `LICENSE.txt`): you're free to use, change, port (VST/CLAP, other platforms, hardware) and share this code, as long as the copyright notice and licence text come along. Fonts on the panel (Inter, Climate Crisis) are under the SIL Open Font Licence.
