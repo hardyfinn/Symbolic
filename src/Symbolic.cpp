@@ -89,7 +89,7 @@ struct Symbolic : Module {
 		configParam(PEDAL_PARAM, 0.f, 1.f, 0.f, "Hi-hat pedal (open <-> closed)", "%", 0.f, 100.f);
 		configParam(CHICK_PARAM, 0.f, 1.f, 0.5f, "Foot chick level (when the pedal closes)", "%", 0.f, 100.f);
 		configParam(WIDTH_PARAM, 0.f, 1.f, 0.7f, "Stereo width", "%", 0.f, 100.f);
-		configParam(LEVEL_PARAM, 0.f, 1.f, 1.f, "Level", "%", 0.f, 100.f);
+		configParam(LEVEL_PARAM, 0.f, 1.f, 1.f, "Level", "%", 0.f, 100.f)->randomizeEnabled = false;
 		configButton(HIT_PARAM, "Hit");
 
 		configInput(VOCT_INPUT, "V/OCT (tune)");
